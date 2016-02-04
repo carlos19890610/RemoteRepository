@@ -11,7 +11,7 @@
 <body>
 <fmt:setBundle basename="Message" var="bundle" />
 <h3><fmt:message key="index.welcome" bundle="${bundle}" /> ${user.email}</h3>
-
+!!!
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
 HIHI
